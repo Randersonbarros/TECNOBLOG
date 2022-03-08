@@ -1,0 +1,144 @@
+/* Limpeza de formatação*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Formatação do corpo do site*/
+
+body{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+#area-cabecalho{
+	text-align: center;
+	padding: 15px;
+	background: #f7b600;
+}
+
+#area-logo,#area-menu {
+	margin: 20px;
+}
+
+#area-principal{
+	margin: 0 auto;
+	padding: 15px;
+	width: 920px;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+
+}
+
+.postagem{
+	
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.texto-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 680px;
+
+}
+
+#area-lateral{
+	width: 240px
+	float: right;
+}
+
+/*Formatacões gerais*/
+
+h1{
+	font-size: 2.5em;
+	color: #4e4e4e;
+}
+
+h2{
+	
+	color: #f7b600;
+	padding-bottom: 5px;
+}
+
+h3{
+	color: black;
+	background: #f7b600;
+	text-align: center;
+	margin-bottom: 8px;
+	
+}
+
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.branco{
+	color: #fff
+}
+
+
+
+.data-postagem{
+	font-size: 0.8em;
+	padding-top: 8px;
+	padding-left: 8px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #ccc;
+	display: block;
+}
+
+
+
+
+
+#rodape{
+	background: #ccc;
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+	clear: both;
+}
+
+
+
+/* Formatação links*/
+
+a{
+	text-decoration: underline;
+}
+a:link, a:visited {
+	color: #f7b600;
+	
+}
+a:hover{
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #fff;
+	padding: 15px;
+}
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background: #fff;
+	text-decoration: none;
+}
